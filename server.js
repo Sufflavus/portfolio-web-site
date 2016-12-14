@@ -11,6 +11,10 @@ app.get('/', function (req, res) {
 app.get('/favicon.ico', function (req, res) {
 });
 
+app.get('/public/css/:file', function (req, res) {
+  res.sendFile(path + req.url);
+});
+
 app.listen(port, function () {
   console.log('Example app listening on port ' + port);
 });
