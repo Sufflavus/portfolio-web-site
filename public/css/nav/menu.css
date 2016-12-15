@@ -1,0 +1,36 @@
+.menu {
+	max-width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	zoom: 1;
+	display: block;
+	border-bottom: 1px solid #E6E0CB;
+	text-align: center;
+	padding: 0px;
+}
+
+.menu__item {
+   display:inline-block;
+   *display:inline; /*IE7*/
+   *zoom:1; /*IE7*/
+   margin-right: 20px;
+   padding-bottom: 0px;
+}
+
+.menu__link {
+	display: block;
+	color: #fff8e1;
+	text-transform: uppercase;
+	padding-bottom: 18px;
+	padding-top: 0px;
+	border-bottom: 2px solid transparent;
+   -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+   text-decoration: none;
+}
+
+.menu__link:hover {
+	border-bottom: 2px solid #E6E0CB;
+}

@@ -12,20 +12,28 @@
             block : 'nav',
             content : [
                 {
-                    elem : 'nav-item',
-                    content : 'Home'
+                    elem : 'item',
+                    content : [
+                        { elem : 'link' }  
+                    ]
                 },
                 {
-                    elem : 'nav-item',
-                    content : 'Projects'
+                    elem : 'item',
+                    content : [
+                        { elem : 'link' }  
+                    ]
                 },
                 {
-                    elem : 'nav-item',
-                    content : 'Skills'
+                    elem : 'item',
+                    content : [
+                        { elem : 'link' }  
+                    ]
                 },
                 {
-                    elem : 'nav-item',
-                    content : 'Contacts'
+                    elem : 'item',
+                    content : [
+                        { elem : 'link' }  
+                    ]
                 }
             ]
         },

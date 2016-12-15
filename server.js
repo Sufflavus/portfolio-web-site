@@ -15,6 +15,10 @@ app.get('/public/css/:file', function (req, res) {
   res.sendFile(path + req.url);
 });
 
+app.get('/public/css/nav/:file', function (req, res) {
+  res.sendFile(path + req.url);
+});
+
 app.listen(port, function () {
   console.log('Example app listening on port ' + port);
 });
