@@ -1,7 +1,13 @@
 .nav {
-    height: 100px;
-    padding: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0 0 0;
+    box-sizing: content-box;
+    width: 100%;
     margin: 0px;
     text-align: center;
     z-index: 10;
+    background: #8C927A;
 }
