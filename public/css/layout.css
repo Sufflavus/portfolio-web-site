@@ -5,6 +5,15 @@ body {
     height: 100%;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+    background: #1a3742;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5D6D63;
+}
+
 .layout {
     font-size: 1em;
     line-height: 1.6em;
@@ -21,4 +30,17 @@ body {
     padding: 130px 0 30px 0;
     box-sizing: border-box;
     text-align: center;
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+}
+
+.layout__header {
+    color: #E6E0CB;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 0.5em;
+    text-align: center;
+    width: 100%;
 }

@@ -38,7 +38,7 @@
             ]
         },
         {
-            block : 'section-home',
+            block : 'section',
             content : [
                 {
                     elem : 'about',
