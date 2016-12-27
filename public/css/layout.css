@@ -35,6 +35,10 @@ body {
     min-height: 500px;
 }
 
+.layout__projects {
+    width: 100%;
+}
+
 .layout__header {
     color: #E6E0CB;
     font-size: 3em;
@@ -43,4 +47,19 @@ body {
     padding-bottom: 0.5em;
     text-align: center;
     width: 100%;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.projects__collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-tile {
+    width: 150px;
+    height: 180px;
+    background-color: #8C927A;
+    margin-bottom: 20px;
 }
