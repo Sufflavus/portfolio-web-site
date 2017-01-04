@@ -1,6 +1,7 @@
 .project-tile {
-    width: 150px;
-    height: 180px;
+    width: 270px;
+    height: 360px;
+    float: left;
     background-color: #8C927A;
-    margin-bottom: 20px;
+    margin: 20px;
 }
