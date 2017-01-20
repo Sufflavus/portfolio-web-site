@@ -5,10 +5,14 @@ var port = process.env.PORT || 8080;
 var path = process.cwd();
 
 app.get('/', function (req, res) {
-    res.sendFile(path + '/public/index.html');
+  res.sendFile(path + '/public/index.html');
 });
 
 app.get('/favicon.ico', function (req, res) {
+});
+
+app.get('/:file', function (req, res) {
+  res.sendFile(path + '/public/' + req.params.file);
 });
 
 app.get('/public/css/:file', function (req, res) {

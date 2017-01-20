@@ -30,6 +30,7 @@
    text-decoration: none;
 }
 
+.menu__link--selected,
 .menu__link:hover {
 	border-top: 2px solid #E6E0CB;
 }

@@ -7,24 +7,24 @@ body {
 
 ::-webkit-scrollbar {
     width: 8px;
-    background: #1a3742;
+    background: #DBE0E8;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #5D6D63;
+    background: #AFB4BC;
 }
 
 .layout {
-    font-size: 1em;
+    font-size: 1.4em;
     line-height: 1.6em;
     letter-spacing: 1px;
-    color: #E6E0CB;
+    color: #062271;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    background: #1A3742;
+    background: #CDD2DA;
 }
 
 .layout__section {
-    padding: 130px 0 30px 0;
+    padding: 170px 0 30px 0;
     box-sizing: border-box;
     min-height: 500px;
 }
@@ -32,10 +32,8 @@ body {
 .layout__about {
     height: 100%;
     text-align: center;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    width: 550px;
+    margin: 20px auto;
+    width: 700px;
 }
 
 .layout__projects {
@@ -45,8 +43,15 @@ body {
     width: 930px;
 }
 
+.layout__skills {
+    
+}
+
+.layout__contacts {
+    
+}
+
 .layout__header {
-    color: #E6E0CB;
     font-size: 3em;
     font-weight: bold;
     margin: 0;
