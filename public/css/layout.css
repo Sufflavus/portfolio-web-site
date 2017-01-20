@@ -3,6 +3,13 @@ body {
     padding: 0;
     margin: 0;
     height: 100%;
+    scrollbar-base-color: #DBE0E8;        
+    scrollbar-track-color: #AFB4BC;
+    scrollbar-arrow-color: #DBE0E8;  
+    scrollbar-3dlight-color: #DBE0E8;
+    scrollbar-highlight-color: #DBE0E8;
+    scrollbar-shadow-color: #DBE0E8;
+    scrollbar-dark-shadow-color: #DBE0E8;
 }
 
 ::-webkit-scrollbar {
