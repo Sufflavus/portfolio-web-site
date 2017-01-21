@@ -60,12 +60,11 @@ body {
 
 .layout__header {
     font-size: 3em;
+    line-height: 1.2em;
     font-weight: bold;
     margin: 0;
     padding-bottom: 0.5em;
     text-align: center;
-    width: 100%;
-    display: block;
     margin-bottom: 50px;
 }
 
