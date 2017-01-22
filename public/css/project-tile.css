@@ -3,5 +3,15 @@
     height: 360px;
     float: left;
     background-color: #AFB4BC;
+    padding: 10px;
     margin: 20px;
+}
+
+.project-tile__image {
+    width: 100%;
+}
+
+.project-tile__name {
+    text-align: center;
+    font-weight: bold;
 }
