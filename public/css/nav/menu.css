@@ -16,6 +16,10 @@
    padding-top: 0px;
 }
 
+.menu__item:last-child {
+   margin: 0;
+}
+
 .menu__link {
 	display: block;
 	color: #fff8e1;
