@@ -31,6 +31,8 @@ body {
 }
 
 .layout__section {
+    width: 930px;
+    margin: 0 auto;
     padding: 170px 0 30px 0;
     box-sizing: border-box;
     min-height: 500px;
@@ -63,4 +65,8 @@ body {
 
 .projects__collection {
     display: block;
+}
+
+.clear-fix {
+    clear: both;
 }

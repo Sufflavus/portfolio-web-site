@@ -1,0 +1,65 @@
+.skill-tile {
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.skill-tile__image-js {
+    background-image: url("images/skills/js.jpg");
+}
+
+.skill-tile__image-jquery {
+    background-image: url("images/skills/jquery.png");
+}
+
+.skill-tile__image-html {
+    background-image: url("images/skills/html5.svg");
+}
+
+.skill-tile__image-css {
+    background-image: url("images/skills/css3.svg");
+}
+
+.skill-tile__image-less {
+    background-image: url("images/skills/less.svg");
+}
+
+.skill-tile__image-asp {
+    background-image: url("images/skills/asp-net.png");
+}
+
+.skill-tile__image-ko {
+    background-image: url("images/skills/ko.png");
+}
+
+.skill-tile__image-angular {
+    background-image: url("images/skills/angular.svg");
+}
+
+.skill-tile__image-react {
+    background-image: url("images/skills/react.svg");
+}
+
+.skill-tile__image-d3 {
+    background-image: url("images/skills/d3.svg");
+}
+
+.skill-tile__image-csharp {
+    background-image: url("images/skills/csharp.png");
+}
+
+.skill-tile__image-sql {
+    background-image: url("images/skills/sql.png");
+}
+
+.skill-tile__image-mongodb {
+    background-image: url("images/skills/mongodb.svg");
+}
+
+.skill-tile__image-nodejs {
+    background-image: url("images/skills/nodejs-black.png");
+}

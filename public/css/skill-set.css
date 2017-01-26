@@ -1,0 +1,15 @@
+.skills-set {
+    margin: 20px 0;
+}
+
+.skills-set__header {
+    margin: 30px;
+    font-size: 2em;
+    line-height: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.skills-set__items {
+    margin: 20px 0;
+}
