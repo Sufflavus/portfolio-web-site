@@ -2,42 +2,66 @@
     width: 550px;
     margin: 20px auto;
     text-align: center;
-    box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3), 0px 2px 2px rgba(0,0,0,0.1);
+    position: relative;
+    padding: 1em 1.5em;
+    margin: 2em auto;
+    color: #fff;
+    /*
+    http://paletton.com/#uid=5500u0ko3n+d+wwjhrerhjewFdX
+    */
+    background: #3E1667;
+    overflow: hidden;
+}
+
+.panel-about:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 32px 32px 0;
+    border-style: solid;
+    border-color: #CDD2DA #CDD2DA transparent transparent;
+    background: #28064B;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+    /* Firefox 3.0 damage limitation */
+    display: block; width: 0;
 }
 
 .panel-about__header {
     height: 30px;
     line-height: 33px;
-    padding: 5px 20px;
-    background: #D197DE;
-    text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
-    box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3), 0px 2px 2px rgba(0,0,0,0.1);
-    z-index: 20;
-    font-size: 19px;
+    margin: 0 0 30px 0;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
 }
 
+.panel-about__header_underlined {
+    display: inline;
+    border-bottom: 1px #ffffff solid;
+    padding: 0 5px 2px 5px;
+}
+
 .panel-about__content {
-    transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
-    padding: 30px;
-    box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
-    background: rgba(255, 255, 255, 0.5);
     font-weight: 400;
-    font-size: 15px;
+}
+
+
+.panel-about__content_highlighted {
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.5;
 }
 
 .panel-about__section {
-    margin: 0;
-    padding: 0 0 10px 0;
-    font-style: italic;
+    margin-bottom: 15px;
     line-height: 23px;
-    font-size: 14px;
-    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
-    text-align: left;
+    font-size: 16px;
 }
 
 .panel-about__section:last-child {
-    padding: 0;
+    margin: 0;
 }

@@ -1,65 +1,88 @@
 .skill-tile {
-    display: inline-block;
-    margin: 10px;
-    width: 100px;
-    height: 100px;
+    float: left;
+    width: 200px;
+    height: 200px;
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-origin: content-box;
 }
 
-.skill-tile__image-js {
+.skill-tile__image_js {
     background-image: url("images/skills/js.jpg");
 }
 
-.skill-tile__image-jquery {
+.skill-tile__image_jquery {
     background-image: url("images/skills/jquery.png");
 }
 
-.skill-tile__image-html {
+.skill-tile__image_html {
+    padding: 10px;
+    background-color: #ffffff;
     background-image: url("images/skills/html5.svg");
 }
 
-.skill-tile__image-css {
+.skill-tile__image_css {
+    padding: 10px;
+    background-color: #ffffff;
     background-image: url("images/skills/css3.svg");
 }
 
-.skill-tile__image-less {
+.skill-tile__image_less {
+    padding: 10px;
+    background-color: #ffffff;
     background-image: url("images/skills/less.svg");
 }
 
-.skill-tile__image-asp {
+.skill-tile__image_asp {
+    padding: 10px;
+    background-color: #ffffff;
     background-image: url("images/skills/asp-net.png");
 }
 
-.skill-tile__image-ko {
+.skill-tile__image_ko {
+    padding: 10px;
+    background-color: #890E0C;
     background-image: url("images/skills/ko.png");
 }
 
-.skill-tile__image-angular {
+.skill-tile__image_angular {
+    padding: 10px;
+    background-color: #ffffff;
     background-image: url("images/skills/angular.svg");
 }
 
-.skill-tile__image-react {
+.skill-tile__image_react {
     background-image: url("images/skills/react.svg");
 }
 
-.skill-tile__image-d3 {
+.skill-tile__image_d3 {
+    padding: 10px;
+    background-color: #ffffff;
     background-image: url("images/skills/d3.svg");
 }
 
-.skill-tile__image-csharp {
+.skill-tile__image_csharp {
+    padding: 10px;
+    background-color: #ffffff;
     background-image: url("images/skills/csharp.png");
 }
 
-.skill-tile__image-sql {
+.skill-tile__image_sql {
+    padding: 10px;
+    background-color: #ffffff;
     background-image: url("images/skills/sql.png");
 }
 
-.skill-tile__image-mongodb {
+.skill-tile__image_mongodb {
+    padding: 10px;
+    background-color: #ffffff;
     background-image: url("images/skills/mongodb.svg");
 }
 
-.skill-tile__image-nodejs {
+.skill-tile__image_nodejs {
+    padding: 10px;
+    background-color: #ffffff;
     background-image: url("images/skills/nodejs-black.png");
 }
