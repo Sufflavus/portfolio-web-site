@@ -11,6 +11,7 @@
     */
     background: #3E1667;
     overflow: hidden;
+    box-shadow: 0 12px 10px -8px rgba(0,0,0,0.62);
 }
 
 .panel-about:before {

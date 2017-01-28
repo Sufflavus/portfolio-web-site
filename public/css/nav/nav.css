@@ -10,4 +10,5 @@
     text-align: center;
     z-index: 10;
     background: #892276;
+    box-shadow: 0 8px 10px -8px rgba(0,0,0,0.62);
 }
