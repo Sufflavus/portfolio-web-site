@@ -39,10 +39,8 @@ body {
 }
 
 .layout__projects {
-    display: block;
-    height: auto;
-    margin: 20px auto;
-    width: 930px;
+   
+    width: 1080px;
 }
 
 .layout__skills {
