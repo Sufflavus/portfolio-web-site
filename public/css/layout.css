@@ -39,8 +39,7 @@ body {
 }
 
 .layout__projects {
-   
-    width: 1080px;
+    width: 990px;
 }
 
 .layout__skills {
@@ -58,7 +57,6 @@ body {
     margin: 0;
     padding-bottom: 0.5em;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .projects__collection {

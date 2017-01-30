@@ -1,20 +1,50 @@
 .project-tile {
-    width: 250px;
-    height: 290px;
-    float: left;
-    background-color: #AFB4BC;
-    padding: 10px;
-    margin: 20px;
+  margin:30px;
+  float:left;
+  color:#000000;
+  display:block;
+  width: 230px;
+  height: 290px;
+  padding:20px;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 }
 
-.project-tile__image {
-    width: 100%;
+.project-tile:hover,
+.project-tile:focus{
+  box-shadow:7px 7px 7px rgba(33,33,33,.7);
+  -moz-box-shadow:7px 7px 7px rgba(33,33,33,.7);
+  -webkit-box-shadow: 7px 7px 7px rgba(33,33,33,.7);
+}
+
+.project-tile_bg_yellow {
+  background:#FFFFCC;
+}
+
+.project-tile_bg_green {
+  background:#CCFFCC;
+}
+
+.project-tile_bg_violet {
+  background:#CCCCFF;
 }
 
 .project-tile__name {
-    text-align: center;
-    font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight:bold;
 }
+
+.project-tile__link {
+  text-decoration:none;
+}
+
+.project-tile__image {
+  width: 100%;
+}
+
+
 
 .layout__section h2,p{
   font-weight:normal;
