@@ -1,88 +1,161 @@
 .skill-tile {
-    float: left;
+    display: inline-block;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
     width: 200px;
-    height: 200px;
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
-    background-origin: content-box;
+    height: 400px;
+    margin: -100px 0 0 5px;
+    overflow: hidden;
+}
+
+.skill-tile__rotator_1 {
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.skill-tile__rotator_2 {
+  visibility: visible;
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: #FF9A00;
+}
+
+.skill-tile:nth-child(4) {
+  position: absolute;
+  top: calc(220px - 38px);
+  left: -105px;
+}
+
+.skill-tile:nth-child(5) {
+  position: absolute;
+  top: calc(220px - 38px);
+  left: 105px;
+}
+
+.skill-tile:nth-child(6) {
+  position: absolute;
+  top: calc(220px - 38px);
+  left: calc(15px + 303px);
+}
+
+.skill-tile:nth-child(7) {
+  position: absolute;
+  top: calc(220px - 38px);
+  left: calc(15px + 515px);
+}
+
+.skill-tile:nth-child(8) {
+  position: absolute;
+  top: calc(440px - 75px);
+  left: 0;
+}
+
+.skill-tile:nth-child(9) {
+  position: absolute;
+  top: calc(440px - 75px);
+  left: calc(212px);
+}
+
+.skill-tile:nth-child(10) {
+  position: absolute;
+  top: calc(440px - 75px);
+  left: calc(424px);
 }
 
 .skill-tile__image_js {
-    background-image: url("images/skills/js.jpg");
+    background-size: 150px auto;
+    background-color: #FFFFFF;
+    background-image: url("images/skills/js-white.png");
 }
 
 .skill-tile__image_jquery {
+    background-color: #373737;
     background-image: url("images/skills/jquery.png");
 }
 
 .skill-tile__image_html {
-    padding: 10px;
     background-color: #ffffff;
     background-image: url("images/skills/html5.svg");
+    background-size: 150px auto;
 }
 
 .skill-tile__image_css {
-    padding: 10px;
     background-color: #ffffff;
     background-image: url("images/skills/css3.svg");
+    background-size: auto 150px;
 }
 
 .skill-tile__image_less {
-    padding: 10px;
     background-color: #ffffff;
     background-image: url("images/skills/less.svg");
+    background-size: 150px auto;
 }
 
 .skill-tile__image_asp {
-    padding: 10px;
     background-color: #ffffff;
     background-image: url("images/skills/asp-net.png");
+    background-size: 150px auto;
 }
 
 .skill-tile__image_ko {
-    padding: 10px;
     background-color: #890E0C;
     background-image: url("images/skills/ko.png");
+    background-size: 150px auto;
 }
 
 .skill-tile__image_angular {
-    padding: 10px;
     background-color: #ffffff;
     background-image: url("images/skills/angular.svg");
 }
 
 .skill-tile__image_react {
     background-image: url("images/skills/react.svg");
+    background-size: 150px auto;
 }
 
 .skill-tile__image_d3 {
-    padding: 10px;
     background-color: #ffffff;
     background-image: url("images/skills/d3.svg");
+    background-size: 130px;
 }
 
 .skill-tile__image_csharp {
-    padding: 10px;
     background-color: #ffffff;
     background-image: url("images/skills/csharp.png");
+    background-size: 180px auto;
 }
 
 .skill-tile__image_sql {
-    padding: 10px;
     background-color: #ffffff;
     background-image: url("images/skills/sql.png");
+    background-size: 150px auto;
 }
 
 .skill-tile__image_mongodb {
-    padding: 10px;
     background-color: #ffffff;
     background-image: url("images/skills/mongodb.svg");
+    background-size: 160px auto;
 }
 
 .skill-tile__image_nodejs {
-    padding: 10px;
     background-color: #ffffff;
     background-image: url("images/skills/nodejs-black.png");
 }
+

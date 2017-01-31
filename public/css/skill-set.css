@@ -1,5 +1,7 @@
 .skills-set {
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-left: 100px;
+    position: relative;
 }
 
 .skills-set__header {
