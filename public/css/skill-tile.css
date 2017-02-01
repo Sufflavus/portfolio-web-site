@@ -7,8 +7,8 @@
     -o-transform: rotate(120deg);
     transform: rotate(120deg);
     width: 200px;
-    height: 400px;
-    margin: -100px 0 0 5px;
+    height: 232px;
+    margin: 0 0 -60px 5px;
     overflow: hidden;
 }
 
@@ -25,6 +25,7 @@
 
 .skill-tile__rotator_2 {
   visibility: visible;
+  position: relative;
   -webkit-transform: rotate(-60deg);
   -moz-transform: rotate(-60deg);
   -ms-transform: rotate(-60deg);
@@ -37,46 +38,37 @@
   background-color: #FF9A00;
 }
 
+.skill-tile__rotator_2:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.4);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.skill-tile__rotator_2:hover:after {
+    width: 120%;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
 .skill-tile:nth-child(4) {
-  position: absolute;
-  top: calc(220px - 38px);
-  left: -105px;
+  margin-left: -101px;
 }
 
 .skill-tile:nth-child(5) {
-  position: absolute;
-  top: calc(220px - 38px);
-  left: 105px;
-}
-
-.skill-tile:nth-child(6) {
-  position: absolute;
-  top: calc(220px - 38px);
-  left: calc(15px + 303px);
-}
-
-.skill-tile:nth-child(7) {
-  position: absolute;
-  top: calc(220px - 38px);
-  left: calc(15px + 515px);
-}
-
-.skill-tile:nth-child(8) {
-  position: absolute;
-  top: calc(440px - 75px);
-  left: 0;
-}
-
-.skill-tile:nth-child(9) {
-  position: absolute;
-  top: calc(440px - 75px);
-  left: calc(212px);
-}
-
-.skill-tile:nth-child(10) {
-  position: absolute;
-  top: calc(440px - 75px);
-  left: calc(424px);
+  margin-left: -101px;
 }
 
 .skill-tile__image_js {

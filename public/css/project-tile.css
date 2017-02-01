@@ -2,13 +2,15 @@
   margin:30px;
   float:left;
   color:#000000;
-  display:block;
+  display: flex;
+  flex-direction: column;
   width: 230px;
   height: 290px;
   padding:20px;
   -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
   -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
   box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  position: relative;
 }
 
 .project-tile:hover,
@@ -32,80 +34,37 @@
 
 .project-tile__name {
   font-size: 30px;
-  margin-bottom: 20px;
   font-weight:bold;
 }
 
 .project-tile__link {
   text-decoration:none;
+  flex: 1;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.project-tile__image {
-  width: 100%;
+.project-tile__image_geek-data {
+  background-image: url(images/projects/geek-data.png);
 }
 
-
-
-.layout__section h2,p{
-  font-weight:normal;
+.project-tile__image_heat-map {
+  background-image: url(images/projects/heat-map.png);
 }
 
-.layout__section h2{
-  margin: 10px 0;
+.project-tile__image_meteorite-landing {
+  background-image: url(images/projects/meteorite-landing.png);
 }
 
-.layout__section ul,li{
-  list-style:none;
+.project-tile__image_crawler-game {
+  background-image: url(images/projects/roguelike-dungeon-crawler-game.png);
 }
 
-.layout__section ul{
-  overflow:hidden;
-  padding:3em;
+.project-tile__image_game-of-life {
+  background-image: url(images/projects/game-of-life.png);
 }
 
-.layout__section ul li a{
-  text-decoration:none;
-  color:#000;
-  background:#ffc;
-  display:block;
-  width:10em;
-  height: 320px;
-  padding:1em;
-  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
-  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
-  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
- /* -moz-transition:-moz-transform .15s linear;
-  -o-transition:-o-transform .15s linear;
-  -webkit-transition:-webkit-transform .15s linear;*/
+.project-tile__image_mint {
+  background-image: url(images/projects/mint.png);
 }
-
-.layout__section ul li{
-  margin:1em;
-  float:left;
-}
-
-.layout__section ul li h2{
-  font-weight:bold;
-  padding-bottom:0;
-}
-
-.layout__section ul li:nth-child(even) a{
-  background:#cfc;
-}
-
-.layout__section ul li:nth-child(3n) a{
-  
-  background:#ccf;
-}
-
-.layout__section ul li a:hover,
-.layout__section ul li a:focus{
-  box-shadow:7px 7px 7px rgba(33,33,33,.7);
-  -moz-box-shadow:7px 7px 7px rgba(33,33,33,.7);
-  -webkit-box-shadow: 7px 7px 7px rgba(33,33,33,.7);
-  position:relative;
-  z-index:5;
-}
-.layout__section ol{text-align:center;}
-.layout__section ol li{display:inline;padding-right:1em;}
-.layout__section ol li a{color:#fff;}
