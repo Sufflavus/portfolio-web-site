@@ -5,11 +5,15 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
       <title>Tatiana Shatilova's Portfolio</title>
       
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+      <!--<link href="css/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>-->
       <link href="css/layout.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-      <link href="css/project-tile.css" type="text/css" rel="stylesheet" media="screen,projection"/>
       <link href="css/nav/nav.css" type="text/css" rel="stylesheet" media="screen,projection"/>
       <link href="css/nav/menu.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/contact-envelope.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/social-button.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      
+      <script src="https://use.fontawesome.com/21bd0e91c3.js"></script>
     </head>
     <body>
       <nav class="nav">
@@ -30,12 +34,33 @@
       </nav>
       <section class="layout__section">
         <div class="layout__contacts">
-          <!--feel free to get in touch.
-          Interested in working with us? Or just want to say ‘Hello’? Please use the contact form below or send us an email to hello@bert.house We will be in contact with you as soon as we can.
-
--->
-
-            Say Hello :)
+          <div class="contact-envelope">
+            <div class="contact-envelope__content">
+              <div class="contact-envelope__stamp"></div>
+              <div class="contact-envelope__header">Get in touch</div>
+              <div class="contact-envelope__message">
+                If you have any questions, suggestions or even just want to say Hi, please feel free to get in touch with me! :)
+              </div>
+              <div class="social-buttons">
+                <a class="social-button social-button--email" href="mailto:tatashat@gmail.com">
+                  <i class="social-button__pulse"></i>
+                  <i class="fa fa-envelope-o fa-2x"></i>
+                </a>
+                <a class="social-button social-button--linkedin" href="https://us.linkedin.com/pub/tatiana-shatilova/81/94/260" target="_blank">
+                  <i class="social-button__pulse"></i>
+                  <i class="fa fa-linkedin fa-2x"></i>
+                </a>
+                <a class="social-button social-button--github" href="https://github.com/Sufflavus" target="_blank">
+                  <i class="social-button__pulse"></i>
+                  <i class="fa fa-github fa-2x"></i>
+                </a>
+                <a class="social-button social-button--codepen" href="https://codepen.io/sufflavus" target="_blank">
+                  <i class="social-button__pulse"></i>
+                  <i class="fa fa-codepen fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </body>
