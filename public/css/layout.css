@@ -33,17 +33,35 @@ body {
 .layout__section {
     width: 930px;
     margin: 0 auto;
-    padding: 170px 0 30px 0;
+    padding: 116px 0 0 0;
     box-sizing: border-box;
     min-height: 500px;
+}
+
+.layout__about {
+    width: 990px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .layout__projects {
     width: 990px;
 }
 
-.layout__contacts {
+.layout__skills {
+    width: 840px;
     margin-top: 30px;
+}
+
+.layout__contacts {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .layout__header {
@@ -61,9 +79,4 @@ body {
 
 .clear-fix {
     clear: both;
-}
-
-.layout__skills {
-    width: 840px;
-    
 }

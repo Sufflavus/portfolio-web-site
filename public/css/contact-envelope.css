@@ -2,10 +2,11 @@
     background-color: #F8F7F3;
     background-image: repeating-linear-gradient(135deg, #D5181F 0px, #D5181F 50px, transparent 50px, transparent 80px, #0F5DA5 80px, #0F5DA5 130px, transparent 130px, transparent 160px);
     box-shadow: 0 14px 7px -12px rgba(0, 0, 0, 0.898);
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 15px;
     position: relative;
     width: 846px;
+    flex-shrink: 0;
 }
 
 .contact-envelope:before {

@@ -3,15 +3,12 @@
     margin: 20px auto;
     text-align: center;
     position: relative;
-    padding: 1em 1.5em;
-    margin: 2em auto;
+    padding: 30px;
     color: #fff;
-    /*
-    http://paletton.com/#uid=5500u0ko3n+d+wwjhrerhjewFdX
-    */
     background: #3E1667;
     overflow: hidden;
     box-shadow: 0 12px 10px -8px rgba(0,0,0,0.62);
+    align-self: center;
 }
 
 .panel-about:before {
