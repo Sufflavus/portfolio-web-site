@@ -5,9 +5,11 @@
     margin: 20px auto;
     padding: 15px;
     position: relative;
-    width: 846px;
+    width: 876px;
+    box-sizing: border-box;
     flex-shrink: 0;
 }
+
 
 .contact-envelope:before {
     bottom: 15px;
@@ -47,4 +49,45 @@
 .contact-envelope__message {
     font-size: 0.8em;
     line-height: 1.4em;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 550px) {
+	.contact-envelope {
+        box-shadow: none;
+        width: auto;
+        margin: 30px 10px;
+	}
+	
+	.contact-envelope:before,
+	.contact-envelope__stamp {
+	    display: none;
+	}
+	
+	.contact-envelope__content {
+	    padding: 30px;
+	}
+	
+	.social-buttons {
+	    text-align: center;
+	}
+}
+
+@media only screen and (min-width: 551px) and (max-width: 930px) {
+	.contact-envelope {
+        width: auto;
+        margin-right: 20px;
+        margin-left: 20px;
+	}
+	
+	.contact-envelope__stamp {
+	    display: none;
+	}
+	
+	.contact-envelope__content {
+	    padding: 30px;
+	}
+	
+	.social-buttons {
+	    text-align: left;
+	}
 }

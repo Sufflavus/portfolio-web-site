@@ -2,7 +2,8 @@
 <html lang="en" class="layout">
     <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
       <title>Tatiana Shatilova's Portfolio</title>
       
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -12,57 +13,115 @@
       <link href="css/nav/menu.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
     <body>
-      <nav class="nav">
-      	<ul class="menu">
-      		<li class="menu__item">
-      		  <a class="menu__link" href="index.html">About</a>
-      		</li>
-      		<li class="menu__item">
-      		  <a class="menu__link menu__link--selected" href="projects.html">Projects</a>
-      		</li>
-      		<li class="menu__item">
-      		  <a class="menu__link" href="skills.html">Skills</a>
-      		</li>
-      		<li class="menu__item">
-      		  <a class="menu__link" href="contacts.html">Contacts</a>
-      		</li>
-      	</ul>
-      </nav>
-      <section class="layout__section layout__projects">
+      <div class="layout__content">
+        <nav class="nav">
+        	<ul class="menu">
+        		<li class="menu__item">
+        		  <a class="menu__link" href="index.html">About</a>
+        		</li>
+        		<li class="menu__item">
+        		  <a class="menu__link menu__link--selected" href="projects.html">Projects</a>
+        		</li>
+        		<li class="menu__item">
+        		  <a class="menu__link" href="skills.html">Skills</a>
+        		</li>
+        		<li class="menu__item">
+        		  <a class="menu__link" href="contacts.html">Contacts</a>
+        		</li>
+        	</ul>
+        </nav>
         
-        
-        <div class="projects__collection">
-          <div class="project-tile project-tile_bg_yellow">
-            <div class="project-tile__name">GeekData</div>
-            <a class="project-tile__link  project-tile__image_geek-data" href="https://perfco.github.io/GeekData/Source/Web/" target="_blank">
-            </a>
-          </div>
-          <div class="project-tile project-tile_bg_green">
-            <div class="project-tile__name">Heat Map</div>
-            <a class="project-tile__link project-tile__image_heat-map" href="https://codepen.io/sufflavus/full/oxRJRb/" target="_blank">
-            </a>
-          </div>
-          <div class="project-tile project-tile_bg_violet">
-            <div class="project-tile__name">Meteorite Landing</div>
-            <a class="project-tile__link project-tile__image_meteorite-landing" href="https://codepen.io/sufflavus/full/pyXNwY/" target="_blank">
-            </a>
-          </div>
-          <div class="project-tile project-tile_bg_violet">
-            <div class="project-tile__name">Crawler Game</div>
-            <a class="project-tile__link project-tile__image_crawler-game" href="https://codepen.io/sufflavus/full/WxeLQe/" target="_blank">
-            </a>
-          </div>
-          <div class="project-tile project-tile_bg_yellow">
-            <div class="project-tile__name">Game of Life</div>
-            <a class="project-tile__link project-tile__image_game-of-life" href="https://codepen.io/sufflavus/full/grVeEE/" target="_blank">
-            </a>
-          </div>
-          <div class="project-tile project-tile_bg_green">
-            <div class="project-tile__name">Mint</div>
-            <a class="project-tile__link project-tile__image_mint" href="https://github.com/Sufflavus/Mint" target="_blank">
-            </a>
-          </div>
-        </div>
-      </section>
+        <section class="layout__section layout__projects">
+          <article class="project-tile__image_geek-data">
+            <div class="header">
+              <div>GeekData</div>
+              <div>sigma.js, JS, CSS</div>
+            </div>
+          </article>
+          <article class="project-tile__image_heat-map-1">
+            <div class="header">
+              <div>Heat Map</div>
+              <div>d3.js</div>
+            </div>
+          </article>
+          <article class="project-tile__image_meteorite-landing">
+            <div class="header">
+              <div>Meteorite Landing</div>
+              <div>d3.js</div>
+            </div>
+          </article>
+          <article class="project-tile__image_crawler-game-1">
+            <div class="header">
+              <div>Crawler Game</div>
+              <div>React, CSS</div>
+            </div>
+          </article>
+          <article class="project-tile__image_game-of-life-1">
+            <div class="header">
+              <div>Game of Life</div>
+              <div>React, CSS</div>
+            </div>
+          </article>
+          <article class="project-tile__image_mint">
+            <div class="header">
+              <div>Mint</div>
+              <div>JS</div>
+            </div>
+          </article>
+          <article class="project-tile__image_linq-es-6">
+            <div class="header">
+              <div>LINQ to ES6</div>
+              <div>JS, ES6</div>
+            </div>
+          </article>
+          <article class="project-tile__image_open-source">
+            <div class="header">
+              <div>Open Source</div>
+              <div>JS, C#, node.js...</div>
+            </div>
+          </article>
+          <article class="project-tile__image_private-apps">
+            <div class="header">
+              <div>Enterprise Apps</div>
+              <div>ASP.NET MVC...</div>
+            </div>
+          </article>
+          
+          
+          
+          <!--<div class="projects__collection">
+            <div class="project-tile project-tile_bg_yellow">
+              <div class="project-tile__name">GeekData</div>
+              <a class="project-tile__link  project-tile__image_geek-data" href="https://perfco.github.io/GeekData/Source/Web/" target="_blank">
+              </a>
+            </div>
+            <div class="project-tile project-tile_bg_green">
+              <div class="project-tile__name">Heat Map</div>
+              <a class="project-tile__link project-tile__image_heat-map" href="https://codepen.io/sufflavus/full/oxRJRb/" target="_blank">
+              </a>
+            </div>
+            <div class="project-tile project-tile_bg_violet">
+              <div class="project-tile__name">Meteorite Landing</div>
+              <a class="project-tile__link project-tile__image_meteorite-landing" href="https://codepen.io/sufflavus/full/pyXNwY/" target="_blank">
+              </a>
+            </div>
+            <div class="project-tile project-tile_bg_violet">
+              <div class="project-tile__name">Crawler Game</div>
+              <a class="project-tile__link project-tile__image_crawler-game" href="https://codepen.io/sufflavus/full/WxeLQe/" target="_blank">
+              </a>
+            </div>
+            <div class="project-tile project-tile_bg_yellow">
+              <div class="project-tile__name">Game of Life</div>
+              <a class="project-tile__link project-tile__image_game-of-life" href="https://codepen.io/sufflavus/full/grVeEE/" target="_blank">
+              </a>
+            </div>
+            <div class="project-tile project-tile_bg_green">
+              <div class="project-tile__name">Mint</div>
+              <a class="project-tile__link project-tile__image_mint" href="https://github.com/Sufflavus/Mint" target="_blank">
+              </a>
+            </div>
+          </div>-->
+        </section>
+      </div>
     </body>
 </html>

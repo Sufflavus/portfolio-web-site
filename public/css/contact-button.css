@@ -1,10 +1,10 @@
-.social-buttons{
+.contact-buttons{
     margin-top: 20px;
     font-size: 0;
     line-height: normal;
 }
 
-.social-button {
+.contact-button {
     width: 60px;
     height: 60px;
     display: inline-block;
@@ -22,11 +22,11 @@
     vertical-align: middle;
 }
 
-.social-button__icon {
+.contact-button__icon {
     
 }
 
-.social-button__pulse {
+.contact-button__pulse {
     position: absolute;
     top: 0;
     left: 0;
@@ -52,7 +52,7 @@
     transition-timing-function: cubic-bezier(0.53,-0.67,0.73,0.74);
 }
 
-.social-button__pulse:hover {
+.contact-button__pulse:hover {
     opacity: 1;
     -moz-transform: scale(1.15);
     -ms-transform: scale(1.15);

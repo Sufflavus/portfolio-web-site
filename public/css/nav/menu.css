@@ -38,3 +38,27 @@
 .menu__link:hover {
 	border-top: 2px solid #E6E0CB;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 550px) {
+	.menu,
+	.menu__link,
+	.menu__link--selected,
+	.menu__link:hover {
+		border-top: none;
+	}
+	
+	.menu__item {
+		
+	}
+	
+	.menu__link {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		transition-property: padding;
+	}
+	
+	.menu__link--selected,
+	.menu__link:hover {
+		font-weight: bold;
+	}
+}
