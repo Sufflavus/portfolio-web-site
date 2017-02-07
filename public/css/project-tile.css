@@ -103,10 +103,11 @@
 }
 
 .project-tile__image_private-apps {
-  background-color: #161514;
-  border-color: #161514;
-  background-image: url(images/projects/www-lock.png);
+  background-color: #98C4EF;
+  border-color: #98C4EF;
+  background-image: url(images/projects/web.jpg);
   background-position: center 10px;
+  background-size: 90%;
 }
 
 article {
@@ -189,5 +190,5 @@ article.project-tile__image_linq-es-6 .header {
 }
 
 article.project-tile__image_private-apps .header {
-  background: #161514;
+  background: #98C4EF;
 }
