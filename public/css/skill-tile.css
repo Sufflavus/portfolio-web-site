@@ -63,12 +63,8 @@
     transition: all 0.5s ease-out;
 }
 
-.skill-tile:nth-child(4) {
-  margin-left: -101px;
-}
-
-.skill-tile:nth-child(5) {
-  margin-left: -101px;
+.skill-tile:nth-of-type(4) {
+    margin-left: -101px;
 }
 
 .skill-tile__image_js {
@@ -157,3 +153,33 @@
     background-image: url("images/skills/nodejs-black.png");
 }
 
+@media only screen and (min-width: 720px) and (max-width: 940px) {
+	.skill-tile:nth-of-type(3),
+	.skill-tile:nth-of-type(8) {
+        margin-left: -101px;
+    }
+    
+    .skill-tile:nth-of-type(4) {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 719px) {
+	.skill-tile:nth-of-type(2),
+	.skill-tile:nth-of-type(5),
+	.skill-tile:nth-of-type(8) {
+        margin-left: -101px;
+    }
+    
+    .skill-tile:nth-of-type(3),
+    .skill-tile:nth-of-type(4) {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 0) and (max-width: 519px) {
+	.skill-tile:nth-of-type(n) {
+	    margin-left: 0;
+	    margin-bottom: 0;
+	}
+}

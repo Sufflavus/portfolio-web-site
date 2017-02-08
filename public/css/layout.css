@@ -97,3 +97,21 @@ body {
         width: 100%;
 	}
 }
+
+@media only screen and (min-width: 720px) and (max-width: 940px) {
+	.layout__skills {
+        width: 640px;
+    }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 719px) {
+	.layout__skills {
+        width: 420px;
+    }
+}
+
+@media only screen and (min-width: 0) and (max-width: 519px) {
+	.layout__skills {
+        width: 200px;
+    }
+}
