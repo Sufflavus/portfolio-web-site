@@ -10,6 +10,11 @@
     height: 232px;
     margin: 0 0 -60px 5px;
     overflow: hidden;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition-property: all;
 }
 
 .skill-tile__rotator_1 {

@@ -58,6 +58,7 @@ body {
 
 .layout__skills {
     width: 840px;
+    padding-top: 20px;
 }
 
 .layout__contacts {
@@ -83,6 +84,32 @@ body {
 
 .clear-fix {
     clear: both;
+}
+
+.footer {
+    height: 50px;
+    background-color: #C1C6CD;
+    flex-shrink: 0;
+}
+
+.footer__content-wrapper {
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.footer__content-text {
+    display: block;
+    text-align: center;
+}
+
+.footer__content-link {
+    color: #062271;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 550px) {
