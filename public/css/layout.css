@@ -87,29 +87,27 @@ body {
 }
 
 .footer {
-    height: 50px;
-    background-color: #C1C6CD;
+    /*height: 50px;*/
+    /*background-color: #C1C6CD;*/
     flex-shrink: 0;
 }
 
 .footer__content-wrapper {
+    padding-bottom: 10px;
     height: 100%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     font-size: 13px;
-    opacity: 0.8;
+    /*opacity: 0.8;*/
 }
 
 .footer__content-text {
+    color: #787C80;
     display: block;
     text-align: center;
 }
 
 .footer__content-link {
-    color: #062271;
+    color: #787C80;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 550px) {
