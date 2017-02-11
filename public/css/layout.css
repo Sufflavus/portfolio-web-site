@@ -54,6 +54,7 @@ body {
 
 .layout__projects {
     width: 1090px;
+    padding-top: 20px;
 }
 
 .layout__skills {
@@ -138,5 +139,17 @@ body {
 @media only screen and (min-width: 0) and (max-width: 519px) {
 	.layout__skills {
         width: 200px;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1090px) {
+    .layout__projects {
+        width: 730px;
+    }
+}
+
+@media only screen and (min-width: 0) and (max-width: 749px) {
+    .layout__projects {
+        width: 370px;
     }
 }
