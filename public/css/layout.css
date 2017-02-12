@@ -54,7 +54,7 @@ body {
 
 .layout__projects {
     width: 1090px;
-    padding-top: 20px;
+    padding: 20px 0;
 }
 
 .layout__skills {
