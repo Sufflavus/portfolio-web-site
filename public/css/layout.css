@@ -55,6 +55,7 @@ body {
 .layout__projects {
     width: 1090px;
     padding: 20px 0;
+    text-align: center;
 }
 
 .layout__skills {
@@ -79,36 +80,8 @@ body {
     text-align: center;
 }
 
-.projects__collection {
-    display: block;
-}
-
 .clear-fix {
     clear: both;
-}
-
-.footer {
-    /*height: 50px;*/
-    /*background-color: #C1C6CD;*/
-    flex-shrink: 0;
-}
-
-.footer__content-wrapper {
-    padding-bottom: 10px;
-    height: 100%;
-    margin: 0 auto;
-    font-size: 13px;
-    /*opacity: 0.8;*/
-}
-
-.footer__content-text {
-    color: #787C80;
-    display: block;
-    text-align: center;
-}
-
-.footer__content-link {
-    color: #787C80;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 550px) {

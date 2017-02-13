@@ -1,0 +1,19 @@
+.footer {
+    flex-shrink: 0;
+}
+
+.footer__content-wrapper {
+    height: 100%;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+.footer__content-text {
+    color: #787C80;
+    display: block;
+    text-align: center;
+}
+
+.footer__content-link {
+    color: #787C80;
+}
