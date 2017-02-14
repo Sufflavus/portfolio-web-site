@@ -2,7 +2,6 @@ html,
 body {
     padding: 0;
     margin: 0;
-    height: 100%;
     scrollbar-base-color: #DBE0E8;        
     scrollbar-track-color: #AFB4BC;
     scrollbar-arrow-color: #DBE0E8;  
@@ -21,6 +20,11 @@ body {
     background: #AFB4BC;
 }
 
+html.layout__full-page,
+body.layout__full-page {
+    height: 100%;
+}
+
 .layout {
     font-size: 1.4em;
     line-height: 1.6em;
@@ -31,9 +35,17 @@ body {
 }
 
 .layout__content {
+}
+
+.layout__content_display_flex {
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.layout__content_display_fill-all {
+    position: relative;
+    min-height: 100%;
 }
 
 .layout__section {
@@ -61,6 +73,7 @@ body {
 .layout__skills {
     width: 840px;
     padding-top: 20px;
+    padding-bottom: 100px;
 }
 
 .layout__contacts {

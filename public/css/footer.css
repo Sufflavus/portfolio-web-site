@@ -1,17 +1,15 @@
 .footer {
-    flex-shrink: 0;
-}
-
-.footer__content-wrapper {
-    height: 100%;
-    margin: 0 auto;
-    font-size: 13px;
-}
-
-.footer__content-text {
     color: #787C80;
     display: block;
     text-align: center;
+    font-size: 13px;
+    flex-shrink: 0;
+}
+
+.footer_position-absolute {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer__content-link {
