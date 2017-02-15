@@ -83,6 +83,6 @@
     
     .menu__item__selected,
     .menu__item:hover {
-        background: #A63691;
+        background-color: #A63691;
     }
 }

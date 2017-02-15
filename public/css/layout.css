@@ -13,11 +13,11 @@ body {
 
 ::-webkit-scrollbar {
     width: 8px;
-    background: #DBE0E8;
+    background-color: #DBE0E8;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #AFB4BC;
+    background-color: #AFB4BC;
 }
 
 html.layout__full-page,
@@ -26,7 +26,7 @@ body.layout__full-page {
 }
 
 .layout {
-    background: #CDD2DA;
+    background-color: #CDD2DA;
     color: #062271;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 1.4em;

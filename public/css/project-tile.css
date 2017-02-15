@@ -12,7 +12,7 @@
     -moz-transition: all .5s ease;
     transition: all .5s ease;
     transition-property: all;
-    background: #262626;
+    background-color: #262626;
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@
 
 .project-tile__image_linq-es-6 {
     border-color: #2B2F30;
-    background: #2B2F30;
+    background-color: #2B2F30;
     background-image: url(images/projects/es6.png);
     background-position: center center;
     background-size: contain;
@@ -128,19 +128,19 @@
 }
 
 .project-tile__header_game-of-life-1 {
-    background: #33202B;
+    background-color: #33202B;
 }
 
 .project-tile__header_linq-es-6 {
-    background: #2B2F30;
+    background-color: #2B2F30;
 }
 
 .project-tile__header_open-source {
-    background: #000000;
+    background-color: #000000;
 }
 
 .project-tile__header_private-apps {
-    background: #98C4EF;
+    background-color: #98C4EF;
 }
 
 @media only screen and (min-width: 0) and (max-width: 409px) {
