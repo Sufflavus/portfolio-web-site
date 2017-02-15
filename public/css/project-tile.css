@@ -1,37 +1,38 @@
 .project-tile {
-    text-decoration:none;
+    position: relative;
     display: inline-block;
-    background: #262626;
-    border: 10px solid #262626;
-    border-radius: 100%;
-    margin: 0 0 30px 30px;
+    width: 280px;
+    height: 280px;
     overflow: hidden;
     padding: 9px;
-    position: relative;
+    border: 10px solid #262626;
+    border-radius: 100%;
+    margin: 20px;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     transition: all .5s ease;
-    width: 280px;
-    height: 280px;
+    transition-property: all;
+    background: #262626;
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 20px;
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transition-property: all;
+    box-shadow: 
+        0 8px 17px 0 rgba(0,0,0,0.2), 
+        0 6px 20px 0 rgba(0,0,0,0.19);
+    text-decoration:none;
 }
 
 .project-tile__header {
     position: absolute;
+    right: 0;
     bottom: 0;
     left: 0;
-    right: 0;
     height: 90px;
+    padding-top: 10px;
     background-color: #262626;
+    opacity: 0.9;
     color: #fff;
     text-align: center;
-    padding-top: 10px;
-    opacity: 0.9;
 }
 
 .project-tile__name {
@@ -52,9 +53,9 @@
 }
 
 .project-tile__image_heat-map-1 {
+    border-color: #8AADC1;
     background-color: #8AADC1;
     background-image: url(images/projects/heat-map.png);
-    border-color: #8AADC1;
     background-position: center 20px;
 }
 
@@ -63,9 +64,9 @@
 }
 
 .project-tile__image_meteorite-landing {
+    border-color: #98C4EF;
     background-color: #98C4EF;
     background-image: url(images/projects/meteorite-landing.png);
-    border-color: #98C4EF;
     background-position: center 30px;
 }
 
@@ -74,9 +75,9 @@
 }
 
 .project-tile__image_crawler-game-1 {
+    border-color: #222425;
     background-color: #222425;
     background-image: url(images/projects/roguelike-dungeon-crawler-game-1.png);
-    border-color: #222425;
 }
 
 .project-tile__image_game-of-life {
@@ -84,8 +85,8 @@
 }
 
 .project-tile__image_game-of-life-1 {
-    background-image: url(images/projects/game-of-life.png);
     border-color: #33202B;
+    background-image: url(images/projects/game-of-life.png);
     background-size: 130%;
 }
 
@@ -96,8 +97,8 @@
 }
 
 .project-tile__image_linq-es-6 {
-    background: #2B2F30;
     border-color: #2B2F30;
+    background: #2B2F30;
     background-image: url(images/projects/es6.png);
     background-position: center center;
     background-size: contain;
@@ -105,14 +106,14 @@
 }
 
 .project-tile__image_open-source {
-    background-color: #000000;
     border-color: #000000;
+    background-color: #000000;
     background-image: url(images/projects/open-source-1.png);
 }
 
 .project-tile__image_private-apps {
-    background-color: #98C4EF;
     border-color: #98C4EF;
+    background-color: #98C4EF;
     background-image: url(images/projects/web.jpg);
     background-position: center 10px;
     background-size: 90%;
@@ -140,4 +141,11 @@
 
 .project-tile__header_private-apps {
     background: #98C4EF;
+}
+
+@media only screen and (min-width: 0) and (max-width: 409px) {
+    .project-tile {
+        width: 180px;
+        height: 180px;
+    }
 }

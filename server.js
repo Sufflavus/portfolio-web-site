@@ -9,6 +9,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/favicon.ico', function (req, res) {
+  res.sendFile(path + '/public/favicon.ico');
 });
 
 app.get('/public/*', function (req, res) {

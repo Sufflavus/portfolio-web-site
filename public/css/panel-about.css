@@ -1,46 +1,53 @@
 .panel-about {
-    width: 550px;
-    margin: 20px auto;
-    text-align: center;
     position: relative;
-    padding: 30px;
-    color: #fff;
-    background: #3E1667;
+    width: 550px;
     overflow: hidden;
+    padding: 30px;
+    margin: 20px auto;
+    background: #3E1667;
+    -webkit-box-shadow: 0 12px 10px -8px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0 12px 10px -8px rgba(0,0,0,0.62);
     box-shadow: 0 12px 10px -8px rgba(0,0,0,0.62);
+    color: #fff;
+    text-align: center;
     align-self: center;
 }
 
 .panel-about:before {
-    content: "";
     position: absolute;
     top: 0;
     right: 0;
+    display: block; 
+    width: 0;
     border-width: 0 32px 32px 0;
     border-style: solid;
     border-color: #CDD2DA #CDD2DA transparent transparent;
     background: #28064B;
-    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
-    box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
-    /* Firefox 3.0 damage limitation */
-    display: block; 
-    width: 0;
+    -webkit-box-shadow: 
+        0 1px 1px rgba(0,0,0,0.3), 
+        -1px 1px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow:
+        0 1px 1px rgba(0,0,0,0.3), 
+        -1px 1px 1px rgba(0,0,0,0.2);
+    box-shadow: 
+        0 1px 1px rgba(0,0,0,0.3), 
+        -1px 1px 1px rgba(0,0,0,0.2);
+    content: "";
 }
 
 .panel-about__header {
-    line-height: 33px;
     margin: 0 0 30px 0;
     font-size: 20px;
     font-weight: 400;
+    line-height: 33px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .panel-about__header_underlined {
     display: inline;
-    border-bottom: 1px #ffffff solid;
     padding: 0 5px 2px 5px;
+    border-bottom: 1px #ffffff solid;
 }
 
 .panel-about__content {
@@ -65,15 +72,19 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 650px) {
-	.panel-about {
-        box-shadow: none;
+    .layout__content_display_flex {
+        height: auto;
+    }
+    
+    .panel-about {
         width: auto;
         height: auto;
-        margin: 30px 10px;
         overflow: visible;
-	}
-	
-	.panel-about:before {
+        margin: 30px 10px;
+        box-shadow: none;
+    }
+    
+    .panel-about:before {
         display: none;
-	}
+    }
 }

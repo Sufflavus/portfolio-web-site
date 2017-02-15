@@ -26,15 +26,12 @@ body.layout__full-page {
 }
 
 .layout {
+    background: #CDD2DA;
+    color: #062271;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 1.4em;
     line-height: 1.6em;
     letter-spacing: 1px;
-    color: #062271;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    background: #CDD2DA;
-}
-
-.layout__content {
 }
 
 .layout__content_display_flex {
@@ -49,19 +46,21 @@ body.layout__full-page {
 }
 
 .layout__section {
-    width: 930px;
-    margin: 0 auto;
     box-sizing: border-box;
+    width: 930px;
+    min-width: 300px;
     min-height: 500px;
+    margin: 0 auto;
+    clear: both;
 }
 
 .layout__about {
-    width: auto;
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: auto;
 }
 
 .layout__projects {
@@ -85,45 +84,41 @@ body.layout__full-page {
 }
 
 .layout__header {
+    padding-bottom: 0.5em;
+    margin: 0;
     font-size: 3em;
     line-height: 1.2em;
     font-weight: bold;
-    margin: 0;
-    padding-bottom: 0.5em;
     text-align: center;
 }
 
-.clear-fix {
-    clear: both;
-}
-
 @media only screen and (min-width: 0px) and (max-width: 550px) {
-	.layout__section {
-	    width: 100%;
-	    display: block;
-	}
+    .layout__section {
+        display: block;
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 0) and (max-width: 930px) {
-	.layout__contacts {
+    .layout__contacts {
         width: 100%;
-	}
+    }
 }
 
 @media only screen and (min-width: 720px) and (max-width: 940px) {
-	.layout__skills {
+    .layout__skills {
         width: 640px;
     }
 }
 
 @media only screen and (min-width: 520px) and (max-width: 719px) {
-	.layout__skills {
+    .layout__skills {
         width: 420px;
     }
 }
 
 @media only screen and (min-width: 0) and (max-width: 519px) {
-	.layout__skills {
+    .layout__skills {
         width: 200px;
     }
 }
@@ -136,6 +131,6 @@ body.layout__full-page {
 
 @media only screen and (min-width: 0) and (max-width: 749px) {
     .layout__projects {
-        width: 370px;
+        width: auto;
     }
 }

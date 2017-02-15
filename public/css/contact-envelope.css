@@ -1,32 +1,36 @@
 .contact-envelope {
-    background-color: #F8F7F3;
-    background-image: repeating-linear-gradient(135deg, #D5181F 0px, #D5181F 50px, transparent 50px, transparent 80px, #0F5DA5 80px, #0F5DA5 130px, transparent 130px, transparent 160px);
-    box-shadow: 0 14px 7px -12px rgba(0, 0, 0, 0.898);
-    margin: 20px auto;
-    padding: 15px;
     position: relative;
-    width: 876px;
     box-sizing: border-box;
+    width: 876px;
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #F8F7F3;
+    background-image: repeating-linear-gradient(135deg, 
+        #D5181F 0px, #D5181F 50px, 
+        transparent 50px, transparent 80px, 
+        #0F5DA5 80px, #0F5DA5 130px, 
+        transparent 130px, transparent 160px);
+    box-shadow: 0 14px 7px -12px rgba(0, 0, 0, 0.898);
     flex-shrink: 0;
 }
 
 
 .contact-envelope:before {
+    position: absolute;
+    z-index: -1;
+    right: 10px;
     bottom: 15px;
+    width: 350px;
+    height: 10px;
+    transform: rotate(4deg) skew(4deg);
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.898);
     content: "";
-    height: 10px;
-    position: absolute;
-    right: 10px;
-    transform: rotate(4deg) skew(4deg);
-    width: 350px;
-    z-index: -1;
 }
 
 .contact-envelope__content {
-    background-color: #F8F7F3;
     overflow: hidden;
     padding: 50px;
+    background-color: #F8F7F3;
 }
 
 .contact-envelope__stamp {
@@ -41,9 +45,9 @@
 }
 
 .contact-envelope__header {
+    margin-bottom: 30px;
     font-size: 1.4em;
     font-style: italic;
-    margin-bottom: 30px;
 }
 
 .contact-envelope__message {
@@ -56,48 +60,48 @@
 }
 
 @media only screen and (min-width: 551px) and (max-width: 930px) {
-	.contact-envelope {
+    .contact-envelope {
         width: auto;
         margin-right: 20px;
         margin-left: 20px;
-	}
-	
-	.contact-envelope__stamp {
-	    display: none;
-	}
-	
-	.contact-envelope__content {
-	    padding: 30px;
-	}
-	
-	.social-buttons {
-	    text-align: left;
-	}
+    }
+    
+    .contact-envelope__stamp {
+        display: none;
+    }
+    
+    .contact-envelope__content {
+        padding: 30px;
+    }
+    
+    .social-buttons {
+        text-align: left;
+    }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 550px) {
-	.contact-envelope {
-        box-shadow: none;
+    .contact-envelope {
         width: auto;
         margin: 30px 10px;
-	}
-	
-	.contact-envelope:before,
-	.contact-envelope__stamp {
-	    display: none;
-	}
-	
-	.contact-envelope__content {
-	    padding: 30px;
-	}
-	
-	.social-buttons {
-	    text-align: center;
-	}
+        box-shadow: none;
+    }
+    
+    .contact-envelope:before,
+    .contact-envelope__stamp {
+        display: none;
+    }
+    
+    .contact-envelope__content {
+        padding: 30px;
+    }
+    
+    .social-buttons {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 0) and (max-width: 440px) {
-	.contact-buttons__separator {
-	    display: block;
-	}
+    .contact-buttons__separator {
+        display: block;
+    }
 }

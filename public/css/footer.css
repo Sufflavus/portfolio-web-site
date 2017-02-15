@@ -1,6 +1,6 @@
 .footer {
-    color: #787C80;
     display: block;
+    color: #787C80;
     text-align: center;
     font-size: 13px;
     flex-shrink: 0;
@@ -14,4 +14,9 @@
 
 .footer__content-link {
     color: #787C80;
+    text-decoration: none;
+}
+
+.footer__content-link:hover {
+    color: #fff8e1;
 }
