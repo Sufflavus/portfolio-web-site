@@ -1,5 +1,6 @@
 html,
 body {
+    min-width: 300px;
     padding: 0;
     margin: 0;
     scrollbar-base-color: #DBE0E8;        
