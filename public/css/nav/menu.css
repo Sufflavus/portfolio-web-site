@@ -32,7 +32,7 @@
     -ms-transition: .5s;
     -moz-transition: .5s;
     -webkit-transition: .5s;
-    color: #fff8e1;
+    color: #FFF8E1;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -75,10 +75,11 @@
     
     .menu__link {
         display: inline-block;
+        width: 100%;
         padding-top: 0;
         padding-bottom: 0;
         transition-property: padding, font-size;
-        font-size: 0.8em;
+        font-size: 18px;
     }
     
     .menu__item__selected,

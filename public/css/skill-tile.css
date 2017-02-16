@@ -84,25 +84,25 @@
 }
 
 .skill-tile__image_html {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     background-image: url("images/skills/html5.svg");
     background-size: 150px auto;
 }
 
 .skill-tile__image_css {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     background-image: url("images/skills/css3.svg");
     background-size: auto 150px;
 }
 
 .skill-tile__image_less {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     background-image: url("images/skills/less.svg");
     background-size: 150px auto;
 }
 
 .skill-tile__image_asp {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     background-image: url("images/skills/asp-net.png");
     background-size: 150px auto;
 }
@@ -114,7 +114,7 @@
 }
 
 .skill-tile__image_angular {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     background-image: url("images/skills/angular.svg");
 }
 
@@ -124,37 +124,37 @@
 }
 
 .skill-tile__image_d3 {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     background-image: url("images/skills/d3.svg");
     background-size: 130px;
 }
 
 .skill-tile__image_jasmine {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     background-image: url("images/skills/jasmine-labeled.png");
     background-size: 180px;
 }
 
 .skill-tile__image_csharp {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     background-image: url("images/skills/csharp.png");
     background-size: 180px auto;
 }
 
 .skill-tile__image_sql {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     background-image: url("images/skills/sql.png");
     background-size: 150px auto;
 }
 
 .skill-tile__image_mongodb {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     background-image: url("images/skills/mongodb.svg");
     background-size: 160px auto;
 }
 
 .skill-tile__image_nodejs {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     background-image: url("images/skills/nodejs-black.png");
 }
 

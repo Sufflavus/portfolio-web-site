@@ -30,8 +30,8 @@ body.layout__full-page {
     background-color: #CDD2DA;
     color: #062271;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 1.4em;
-    line-height: 1.6em;
+    font-size: 22.4px;
+    line-height: 36px;
     letter-spacing: 1px;
 }
 
@@ -82,15 +82,6 @@ body.layout__full-page {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.layout__header {
-    padding-bottom: 0.5em;
-    margin: 0;
-    font-size: 3em;
-    line-height: 1.2em;
-    font-weight: bold;
-    text-align: center;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 550px) {

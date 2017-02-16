@@ -46,13 +46,13 @@
 
 .contact-envelope__header {
     margin-bottom: 30px;
-    font-size: 1.4em;
+    font-size: 31px;
     font-style: italic;
 }
 
 .contact-envelope__message {
-    font-size: 0.8em;
-    line-height: 1.4em;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .contact-buttons__separator {
