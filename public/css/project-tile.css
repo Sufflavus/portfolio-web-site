@@ -1,4 +1,46 @@
 .project-tile {
+    display: inline-block;
+    width: 250px;
+    height: 260px;
+    box-sizing: border-box;
+    padding: 16px;
+    margin: 15px;
+    vertical-align: top;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 14px -2px rgba(0,0,0,0.75);
+    transition: all .5s ease;
+    transition-property: all;
+}
+
+.project-tile__image {
+    width: 100%;
+    height: 160px;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+}
+
+.project-tile__info {
+    margin-top: 8px;
+    text-align: left;
+    color: #605F5F;
+}
+
+.project-tile__name {
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.project-tile__description {
+    font-size: 15px;
+    line-height: 17px;
+}
+
+/*.project-tile {
     position: relative;
     display: inline-block;
     width: 280px;
@@ -19,7 +61,7 @@
     box-shadow: 
         0 8px 17px 0 rgba(0,0,0,0.2), 
         0 6px 20px 0 rgba(0,0,0,0.19);
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .project-tile__header {
@@ -42,73 +84,68 @@
 
 .project-tile__description {
     font-size: 18px;
-}
+}*/
 
 .project-tile__image_geek-data {
+    background-color: #222222;
     background-image: url(images/projects/geek-data.png);
+    background-size: cover;
 }
 
 .project-tile__image_heat-map {
+    box-sizing: border-box;
+    border: 1px solid #F0F0F0;
+    background-color: #FFFFFF;
     background-image: url(images/projects/heat-map.png);
-}
-
-.project-tile__image_heat-map {
-    border-color: #8AADC1;
-    background-color: #8AADC1;
-    background-image: url(images/projects/heat-map.png);
-    background-position: center 20px;
+    background-size: contain;
+    background-position: center center;
 }
 
 .project-tile__image_meteorite-landing {
-    border-color: #98C4EF;
-    background-color: #98C4EF;
+    background-color: #9EC7F3;
     background-image: url(images/projects/meteorite-landing.png);
-    background-position: center 30px;
+    background-size: contain;
+    background-position: center center;
 }
 
 .project-tile__image_crawler-game {
-    background-image: url(images/projects/roguelike-dungeon-crawler-game.png);
-}
-
-.project-tile__image_crawler-game {
-    border-color: #222425;
     background-color: #222425;
     background-image: url(images/projects/roguelike-dungeon-crawler-game.png);
+    background-size: contain;
+    background-position: center center;
 }
 
 .project-tile__image_game-of-life {
+    background-color: #2F1B28;
     background-image: url(images/projects/game-of-life.png);
-}
-
-.project-tile__image_game-of-life {
-    border-color: #33202B;
-    background-image: url(images/projects/game-of-life.png);
-    background-size: 130%;
+    background-size: contain;
+    background-position: center center;
 }
 
 .project-tile__image_mint {
+    box-sizing: border-box;
+    border: 1px solid #F0F0F0;
+    background-color: #FFFFFF;
     background-image: url(images/projects/mint.png);
-    background-size: 50% 50%;
-    background-position: center 30px;
+    background-size: contain;
+    background-position: center center;
 }
 
 .project-tile__image_linq-es-6 {
-    border-color: #2B2F30;
-    background-color: #2B2F30;
+    background-color: #2F3334;
     background-image: url(images/projects/es6.png);
-    background-position: center center;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .project-tile__image_open-source {
-    border-color: #000000;
     background-color: #000000;
     background-image: url(images/projects/open-source.png);
+    background-size: contain;
+    background-position: center center;
 }
 
 .project-tile__image_private-apps {
-    border-color: #98C4EF;
     background-color: #FFFFFF;
     background-image: url(images/projects/web.jpg);
     background-position: center 10px;
@@ -143,17 +180,11 @@
     background-color: #98C4EF;
 }
 
-@media only screen and (min-width: 0) and (max-width: 409px) {
-    .project-tile {
-        width: 180px;
-        height: 180px;
-    }
-    
-    .project-tile__header {
-        font-size: 18px;
-    }
-    
-    .project-tile__description {
-        font-size: 16px;
-    }
+.project-tile__image_fake {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #3E1667;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 20px;
 }
