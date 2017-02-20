@@ -40,52 +40,6 @@
     line-height: 17px;
 }
 
-/*.project-tile {
-    position: relative;
-    display: inline-block;
-    width: 280px;
-    height: 280px;
-    overflow: hidden;
-    padding: 9px;
-    border: 10px solid #262626;
-    border-radius: 100%;
-    margin: 20px;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    transition: all .5s ease;
-    transition-property: all;
-    background-color: #262626;
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    box-shadow: 
-        0 8px 17px 0 rgba(0,0,0,0.2), 
-        0 6px 20px 0 rgba(0,0,0,0.19);
-    text-decoration: none;
-}
-
-.project-tile__header {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 90px;
-    padding-top: 10px;
-    background-color: #262626;
-    opacity: 0.9;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.project-tile__name {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.project-tile__description {
-    font-size: 18px;
-}*/
-
 .project-tile__image_geek-data {
     background-color: #222222;
     background-image: url(images/projects/geek-data.png);
