@@ -56,7 +56,7 @@ body.layout__full-page {
 }
 
 .layout__about {
-    flex: 1;
+    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,7 +78,7 @@ body.layout__full-page {
 }
 
 .layout__contacts {
-    flex: 1;
+    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
