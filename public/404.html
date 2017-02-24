@@ -16,11 +16,12 @@
         <link href="css/oops-panel.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/error-panel.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         
+        <link href="css/button.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/home-button.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         
         <script src="https://use.fontawesome.com/21bd0e91c3.js"></script>
     </head>
-    <body class="layout__full-page">
+    <body class="layout__full-page layout__404">
         <div class="cracked"></div>
         <nav class="nav nav__404">
             <ul class="menu">
@@ -51,7 +52,8 @@
             <div class="error-panel__small-page">
                 <div class="error-panel__error-code">404</div>
                 <div class="error-panel__error-text">not found</div>
-                <a href="index.html" class="home-button">
+                <a class="button home-button" href="index.html">
+                    <i class="button__pulse home-button__pulse"></i>
                     <i class="fa fa-home fa-2x" aria-hidden="true"></i>
                 </a>
             </div>
@@ -63,8 +65,8 @@
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
             
-            ga('create', 'UA-92225342-1', 'auto');
-            ga('send', 'pageview');
+            //ga('create', 'UA-92225342-1', 'auto');
+            //ga('send', 'pageview');
         </script>
     </body>
 </html>

@@ -1,21 +1,9 @@
 .home-button {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    border: 1px solid #3F60B8;
-    border-radius: 100%;
     margin-top: 30px;
-    color: #3F60B8;
-    text-decoration: none;
-    font-size: 14px;
-    text-align: center;
-    line-height: 70px;
-    vertical-align: middle;
-    cursor: pointer;
+    background-color: #892276;
+    color: #FFF8E1;
 }
 
-.home-button:hover {
-    border-color: #062271;
-    color: #062271;
+.home-button__pulse {
+    border: 1px solid #892276;
 }

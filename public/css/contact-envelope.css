@@ -55,7 +55,13 @@
     line-height: 25px;
 }
 
-.contact-buttons__separator {
+.contact-envelope__buttons {
+    margin-top: 20px;
+    font-size: 0;
+    line-height: normal;
+}
+
+.contact-envelope__buttons-separator {
     display: none;
 }
 
@@ -72,10 +78,6 @@
     
     .contact-envelope__content {
         padding: 30px;
-    }
-    
-    .social-buttons {
-        text-align: left;
     }
 }
 
@@ -94,14 +96,10 @@
     .contact-envelope__content {
         padding: 30px;
     }
-    
-    .social-buttons {
-        text-align: center;
-    }
 }
 
 @media only screen and (min-width: 0) and (max-width: 440px) {
-    .contact-buttons__separator {
+    .contact-envelope__buttons-separator {
         display: block;
     }
 }

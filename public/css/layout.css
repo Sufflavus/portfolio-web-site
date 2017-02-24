@@ -135,8 +135,14 @@ body.layout__full-page {
 }
 
 @media only screen and (max-width: 900px) {
+    html.layout__404,
+    body.layout__404 {
+        height: auto;
+    }
+    
     .layout__404 {
         width: auto;
+        height: auto;
         min-width: 300px;
         min-height: auto;
     }
